@@ -1,0 +1,105 @@
+  body{
+    background-color: rgb(224, 224, 224);
+  }
+  .headerStyle {
+color: indianred;
+text-transform: uppercase;
+ font-size: 4.5rem;
+    font-weight: bold;
+    letter-spacing: 3px;
+    position: relative;
+    width: 100%;
+    text-align: center;
+    display: block;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+
+  .h1Style {
+color: blue;
+}
+
+.h2Style {
+color: rgb(255, 128, 38);
+text-align: center;
+font-family: Georgia, 'Times New Roman', Times, serif;
+font-size: 2vw;
+
+padding:30px ;
+}
+
+.divCont{
+  display: flex; 
+position: relative;
+}
+
+.linkStyleC {
+  	border-radius: 8px;
+  	background-color: #a5df8f;
+  	border:1px solid #303030;
+  	padding: 12px;
+    color: rgb(71, 69, 69);
+    display: grid;
+
+       width: 150px;
+position: inherit;
+margin: 20px;
+
+  }
+  .linkStyleL {
+  	border-radius: 8px;
+        margin-left: 20px;
+  	background-color: #8ad4ce;
+  	border:1px solid #424040;
+  	padding: 12px;
+    width: 150px;
+    color: rgb(73, 70, 70);
+    display: grid;
+margin: 20px;
+    }
+
+
+.listStyle {
+color: rgb(19, 81, 131);
+}
+
+
+.container {
+  background-color: rgb(241, 234, 221);
+  display: flex;
+  flex-direction: column;
+  padding: 50px;
+ 	border: 1px solid #303030;
+  text-align: center;
+  margin-left: 10%;
+  font-size: 1vw;
+}
+
+.imgStyle {
+width: 600px;
+height: 600px;
+border-radius: 50%;
+aspect-ratio: 1;
+object-fit:cover;
+float: inline-end;
+margin-inline-start: 10%;
+}
+
+
+.h3Style {
+color: rgb(58, 102, 223);
+}
+
+
+
+.footStyle {
+  font-size: 32px;
+  color: rgb(95, 31, 31);
+  text-transform: uppercase;
+  text-align: left;
+    font-weight: 300;
+    letter-spacing: 3px;
+    width: 100%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
+}
+
+
