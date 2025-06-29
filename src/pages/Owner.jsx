@@ -9,18 +9,20 @@ Owner
 import style from '/src/components/styles/owner-style.module.css'
 import HeaderOwner from '/src/components/HeaderOwner'
 import FooterOwner from '/src/components/FooterOwner'
-
+import React, { useState } from 'react';
 
 export default function Owner(){
-  
+   const [count, setCount] = useState(0); 
 return(
       <>
  <HeaderOwner />
    <div> 
          <img className={style["imgStyle"]} src="/public/images/lady-gaga-brings-mayhem-to-mexico-14.jpg" alt="Lady Gaga en Mexico" /> 
        <h2 className={style["h2Style"]}>Hola, soy Yalbani Aranda</h2>   
-       <p>Soy desarrolladora Fullstack en proceso.</p>
-
+       <h4 className={style["h4Style"]}>Soy desarrolladora Fullstack en proceso. <br />
+       Me encanta ver peliculas y Lady Gaga.
+       </h4>
+ <br />
     </div>  
 
   <div className={style["container"]}>
@@ -39,10 +41,15 @@ return(
          <a className={style["linkStyleL"]} href="https://www.linkedin.com/in/yalbanii/">Mi LinkedIn</a> <br />
        <a className={style["linkStyleC"]} href="mailto:yarandacardona@gmail.com"> Mándame un correo </a>      
     </div>
-    <br />
-    <hr />
-    <br />
+     <div className={style["containerClic"]}>
+      <p>Has hecho click aqui {count} veces</p>
+      <button onClick={() => setCount(count + 1)}>
+        Click me
+      </button>
+     </div>
+     <br />
        <FooterOwner />
     </>  
 )
 }
+
