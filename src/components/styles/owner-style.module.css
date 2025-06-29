@@ -1,8 +1,8 @@
   body{
-    background-color: rgb(224, 224, 224);
+    background-color: rgb(39, 36, 36);
   }
   .headerStyle {
-color: indianred;
+color: rgb(226, 100, 100);
 text-transform: uppercase;
  font-size: 4.5rem;
     font-weight: bold;
@@ -19,13 +19,23 @@ color: blue;
 }
 
 .h2Style {
-color: rgb(255, 128, 38);
+color: rgb(223, 126, 46);
 text-align: center;
 font-family: Georgia, 'Times New Roman', Times, serif;
-font-size: 2vw;
-
+font-size: 2.5vw;
+    letter-spacing: 3px;
 padding:30px ;
 }
+
+  .h4Style {
+color: rgb(226, 188, 181);
+font-style: italic;
+text-align: center;
+font-size: 1.5vw;
+
+}
+
+
 
 .divCont{
   display: flex; 
@@ -42,8 +52,10 @@ position: relative;
        width: 200px;
 position: inherit;
 margin: 20px;
- font-size: 0.8vw;
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+ font-size: 1vw;
  text-align: center;
+  letter-spacing: 1px;
 
   }
   .linkStyleL {
@@ -53,13 +65,41 @@ margin: 20px;
   	border:1px solid #424040;
   	padding: 15px;
     width: 200px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     color: rgb(73, 70, 70);
     display: grid;
 margin: 20px;
  text-align: center;
-
- font-size: 0.8vw;
+ letter-spacing: 1px;
+ font-size: 1vw;
     }
+
+    .linkStyleL:hover{
+  text-decoration: solid;
+background-color: #c0f0ec;
+}
+
+.linkStyleC:hover{
+ text-decoration: solid;
+ background-color: #cfe9c5;
+}
+
+.linkStyleClic {
+  	border-radius: 8px;
+  	background-color: #460303;
+  	border:1px solid #303030;
+  	padding: 10px;
+    color: rgb(255, 255, 255);
+font-family: cursive;
+ font-size: 1vw;
+ text-align: center;
+  letter-spacing: 1px;
+  }
+
+  .linkStyleClic:hover{
+ text-decoration: solid;
+ background-color: #73207a;
+}
 
 
 .listStyle {
@@ -69,53 +109,80 @@ text-align: left;
 
 
 .container {
-  background-color: rgb(241, 234, 221);
+  background-color: rgb(202, 202, 202);
   display: flex;
   flex-direction: column;
   padding: 40px;
  	border: 1px solid #303030;
   text-align: center;
-  margin-left: 10%;
+  margin-left: 0%;
   font-size: 1vw;
 }
 
 .containerClic {
   background-color: rgb(197, 178, 172);
   color: rgb(146, 58, 58);
-  padding: 30px;
+  padding: 20px;
   font-size: 1.2vw;
   text-align: center;
   float: inherit;
-  width: 450px;
+  margin-left: 0%;
+  width: 480px;
 border-color: #424040;
 }
 
 .imgStyle {
-width: 600px;
-height: 600px;
+width: 500px;
+height: 500px;
 border-radius: 50%;
 aspect-ratio: 1;
 object-fit:cover;
 float: inline-end;
 margin-inline-start: 10%;
+margin-top: 5%;
 }
 
+.imgStyle2 {
+width: 200px;
+height: 200px;
+border-radius: 50%;
+aspect-ratio: 1;
+object-fit:cover;
+float: inline-end;
+margin-inline-start: 10%;
+border: 5px solid black;
+}
+
+.imgStyle2:hover {
+transform: translateY(-10px); /* Eleva ligeramente la tarjeta al pasar el ratón */
+}
+
+.imgStyle3 {
+width: 200px;
+height: 200px;
+border-radius: 50%;
+aspect-ratio: 1;
+object-fit:cover;
+float: inline-end;
+margin-inline-start: 10%;
+border: 5px solid black;
+
+}
+
+
+.imgStyle3:hover {
+transform: translateY(-10px); /* Eleva ligeramente la tarjeta al pasar el ratón */
+}
 
 .h3Style {
 color: rgb(58, 102, 223);
-}
-
-  .h4Style {
-color: rgb(53, 119, 79);
-font-style: italic;
-text-align: center;
 }
 
 
 
 .footStyle {
   font-size: 32px;
-  color: rgb(95, 31, 31);
+  color: rgb(177, 66, 66);
   text-transform: uppercase;
   text-align: center;
     font-weight: 300;
